@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "minecraft server bot"
+version = "0.1.0"
+description = ""
+authors = ["Qianyiovo <qianyiovo@outlook.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+alt-discord-flags-v2 = "^1.0.0"
+loguru = "^0.6.0"
+tortoise-orm = "^0.19.2"
+mcstatus = "^10.0.1"
+mcrcon = "^0.7.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
